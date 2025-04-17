@@ -288,7 +288,12 @@ section{
    object-fit: contain;
    margin-bottom: 1rem;
 }
+#navbar{
+   display:flex;
+   align-items: center;
+   justify-content: center;
 
+}
 .side-bar .profile .name{
    font-size: 2rem;
    color:var(--black);
