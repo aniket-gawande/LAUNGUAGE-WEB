@@ -1,252 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Courses</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-   <link rel="shortcut icon" href="./images/image copy 3.png" type="image/x-icon">
-  
-   <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/image copy 9.png"
+      type="image/x-icon"
+    />
 
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">Education</a>
 
-<header class="header">
-   
-   <section class="flex">
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="Search Courses..."
+            maxlength="100"
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
 
-      <a href="home.html" class="logo">Education</a>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
 
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="Search Courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+        <div class="profile">
+          <img
+            src="images/WhatsApp Image 2025-04-16 at 22.01.13_77769c8b.jpg"
+            class="image"
+            alt=""
+          />
+          <h3 class="name">Aniket</h3>
+          <p class="role">Student</p>
+          <a href="profile.html" class="btn">View Profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+          </div>
+        </div>
+      </section>
+    </header>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="user-btn" class="fas fa-user"></div>
-         <div id="toggle-btn" class="fas fa-sun"></div>
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
       </div>
 
       <div class="profile">
-         <img src="images/pic-1.jpg" class="image" alt="">
-         <h3 class="name">Aniket</h3>
-         <p class="role">Student</p>
-         <a href="profile.html" class="btn">View Profile</a>
-         <div class="flex-btn">
-            <a href="login.html" class="option-btn">Login</a>
-            <a href="register.html" class="option-btn">Register</a>
-         </div>
+        <img
+          src="images/WhatsApp Image 2025-04-16 at 22.01.13_77769c8b.jpg"
+          class="image"
+          alt=""
+        />
+        <h3 class="name">Aniket</h3>
+        <p class="role">student</p>
+        <a href="profile.html" class="btn">View Profile</a>
       </div>
 
-   </section>
+      <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html"
+          ><i class="fas fa-question"></i><span>About</span></a
+        >
+        <a href="courses.html"
+          ><i class="fas fa-graduation-cap"></i><span>Courses</span></a
+        >
+        <a href="teachers.html"
+          ><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a
+        >
+        <a href="contact.html"
+          ><i class="fas fa-headset"></i><span>Contact Us</span></a
+        >
+      </nav>
+    </div>
 
-</header>   
+    <section class="courses">
+      <h1 class="heading">Our Courses</h1>
 
-<div class="side-bar">
-
-   <div id="close-btn">
-      <i class="fas fa-times"></i>
-   </div>
-
-   <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Aniket</h3>
-      <p class="role">student</p>
-      <a href="profile.html" class="btn">View Profile</a>
-   </div>
-
-   <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
-   </nav>
-
-</div>
-
-<section class="courses">
-
-   <h1 class="heading">Our Courses</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/Angela.png" alt="">
+      <div class="box-container">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/image copy 2.png" alt="" />
             <div class="info">
-               <h3>Angela</h3>
-               <span>02-01-2025</span>
+              <h3>Shradha Khapra</h3>
+              <span>02-01-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/html.png" alt="">
-            <span>10 Videos</span>
-         </div>
-         <h3 class="title">Complete HTML Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
+          </div>
+          <div class="thumb">
+            <img src="images/image copy 3.png" alt="" />
+            <span>11 Videos</span>
+          </div>
+          <h3 class="title">Complete HTML Tutorial</h3>
+          <a href="cssplay.html" class="inline-btn">View Playlist</a>
+        </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/shradha.png" alt="">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/image copy 4.png" alt="" />
             <div class="info">
-               <h3>Shradha Khapra</h3>
-               <span>29-01-2025</span>
+              <h3>Shradha Khapra</h3>
+              <span>29-01-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/Csss.png" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/image copy 6.png" alt="" />
+            <span>9 videos</span>
+          </div>
+          <h3 class="title">Complete CSS Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/Code with harry.png" alt="" />
+            <div class="info">
+              <h3>Code With Harry</h3>
+              <span>03-02-2025</span>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="images/js thumbnail.png" alt="" />
+            <span>08 Videos</span>
+          </div>
+          <h3 class="title">Complete JS Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/net ninga.png" alt="" />
+            <div class="info">
+              <h3>Net Ninga</h3>
+              <span>21-02-2025</span>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="images/bootsrtapp.png" alt="" />
+            <span>11 Videos</span>
+          </div>
+          <h3 class="title">Complete Boostrap Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
+
+        <div class="box">
+          <div class="tutor">
+            <img src="images/cse tut.png" alt="" />
+            <div class="info">
+              <h3>CSE Tutorial</h3>
+              <span>28-02-2025</span>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="images/jquery img.png" alt="" />
             <span>10 videos</span>
-         </div>
-         <h3 class="title">Complete CSS Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
+          </div>
+          <h3 class="title">Complete JQuery Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/codew.png" alt="">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/w3 schools.png" alt="" />
             <div class="info">
-               <h3>Code With Harry</h3>
-               <span>03-02-2025</span>
+              <h3>W3Schools</h3>
+              <span>15-03-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/JAVASCRIPT.png" alt="">
-            <span>10 Videos</span>
-         </div>
-         <h3 class="title">Complete JS Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/ninga.png" alt="">
-            <div class="info">
-               <h3>Net Ninga</h3>
-               <span>21-02-2025</span>
-            </div>
-         </div>
-         <div class="thumb">
-            <img src="images/bootsartp.png" alt="">
-            <span>10 Videos</span>
-         </div>
-         <h3 class="title">Complete Boostrap Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/image cse.png" alt="">
-            <div class="info">
-               <h3>CSE Tutorial</h3>
-               <span>28-02-2025</span>
-            </div>
-         </div>
-         <div class="thumb">
-            <img src="images/jquer.png" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/thumb-6.png" alt="" />
             <span>10 videos</span>
-         </div>
-         <h3 class="title">Complete JQuery Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
+          </div>
+          <h3 class="title">Complete SASS Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/w3.png" alt="">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/bro code.png" alt="" />
             <div class="info">
-               <h3>W3Schools</h3>
-               <span>15-03-2025</span>
+              <h3>Bro code</h3>
+              <span>17-03-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-6.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">Complete SASS Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
-
- 
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/image copy 4.png" alt="">
-            <div class="info">
-               <h3>Bro code</h3>
-               <span>17-03-2025</span>
-            </div>
-         </div>
-         <div class="thumb">
-            <img src="images/image copy 5.png" alt="">
+          </div>
+          <div class="thumb">
+            <img src="images/image copy 10.png" alt="" />
             <span>10 Videos</span>
-         </div>
-         <h3 class="title">Complete PHP Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
+          </div>
+          <h3 class="title">Complete PHP Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/image copy 6.png" alt="">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/image copy 6.png" alt="" />
             <div class="info">
-               <h3>Fireship</h3>
-               <span>21-03-2025</span>
+              <h3>Fireship</h3>
+              <span>21-03-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-8.png" alt="">
-            <span>10 Videos</span>
-         </div>
-         <h3 class="title">Complete MySQL Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
-      </div>
+          </div>
+          <div class="thumb">
+            <img src="images/thumb-8.png" alt="" />
+            <span>11 Videos</span>
+          </div>
+          <h3 class="title">Complete MySQL Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/image copy 7.png" alt="">
+        <div class="box">
+          <div class="tutor">
+            <img src="images/image copy 11.png" alt="" />
             <div class="info">
-               <h3>Derek Banas</h3>
-               <span>29-03-2025</span>
+              <h3>Derek Banas</h3>
+              <span>29-03-2025</span>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-9.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">Complete React Tutorial</h3>
-         <a href="playlist.html" class="inline-btn">View Playlist</a>
+          </div>
+          <div class="thumb">
+            <img src="images/thumb-9.png" alt="" />
+            <span>9 videos</span>
+          </div>
+          <h3 class="title">Complete React Tutorial</h3>
+          <a href="playlist.html" class="inline-btn">View Playlist</a>
+        </div>
       </div>
+    </section>
 
-   </div>
+    <footer class="footer">
+      &copy; copyright @ 2025 by <span>Coding Learning</span> | all rights
+      reserved!
+    </footer>
 
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer">
-
-   &copy; copyright @ 2025 by <span>Coding Learning</span> | all rights reserved!
-
-</footer>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-   
-</body>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
 </html>

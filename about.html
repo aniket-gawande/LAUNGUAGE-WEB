@@ -1,264 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>About Us</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
 
-   
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-   <link rel="shortcut icon" href="./images/image copy.png" type="image/x-icon">
-  
-   <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/image copy 8.png"
+      type="image/x-icon"
+    />
 
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">Education</a>
 
-<header class="header">
-   
-   <section class="flex">
+        <form action="search.html" method="post" class="search-form">
+          <input
+            type="text"
+            name="search_box"
+            required
+            placeholder="Search Courses..."
+            maxlength="100"
+          />
+          <button type="submit" class="fas fa-search"></button>
+        </form>
 
-      <a href="home.html" class="logo">Education</a>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
 
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="Search Courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+        <div class="profile">
+          <img
+            src="images/WhatsApp Image 2025-04-16 at 22.01.13_77769c8b.jpg"
+            class="image"
+            alt=""
+          />
+          <h3 class="name">Aniket</h3>
+          <p class="role">Student</p>
+          <a href="profile.html" class="btn">View Profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+          </div>
+        </div>
+      </section>
+    </header>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="user-btn" class="fas fa-user"></div>
-         <div id="toggle-btn" class="fas fa-sun"></div>
+    <div class="side-bar">
+      <div id="close-btn">
+        <i class="fas fa-times"></i>
       </div>
 
       <div class="profile">
-         <img src="images/pic-1.jpg" class="image" alt="">
-         <h3 class="name">Aniket</h3>
-         <p class="role">Student</p>
-         <a href="profile.html" class="btn">View Profile</a>
-         <div class="flex-btn">
-            <a href="login.html" class="option-btn">Login</a>
-            <a href="register.html" class="option-btn">Register</a>
-         </div>
+        <img
+          src="images/WhatsApp Image 2025-04-16 at 22.01.13_77769c8b.jpg"
+          class="image"
+          alt=""
+        />
+        <h3 class="name">Aniket</h3>
+        <p class="role">Student</p>
+        <a href="profile.html" class="btn">View Profile</a>
       </div>
 
-   </section>
+      <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="about.html"
+          ><i class="fas fa-question"></i><span>About</span></a
+        >
+        <a href="courses.html"
+          ><i class="fas fa-graduation-cap"></i><span>Courses</span></a
+        >
+        <a href="teachers.html"
+          ><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a
+        >
+        <a href="contact.html"
+          ><i class="fas fa-headset"></i><span>Contact Us</span></a
+        >
+      </nav>
+    </div>
 
-</header>   
+    <section class="about">
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.svg" alt="" />
+        </div>
 
-<div class="side-bar">
-
-   <div id="close-btn">
-      <i class="fas fa-times"></i>
-   </div>
-
-   <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Aniket </h3>
-      <p class="role">Student</p>
-      <a href="profile.html" class="btn">View Profile</a>
-   </div>
-
-   <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
-   </nav>
-
-</div>
-
-<section class="about">
-
-   <div class="row">
-
-      <div class="image">
-         <img src="images/about-img.svg" alt="">
+        <div class="content">
+          <h3>Why Choose Us?</h3>
+          <p>
+            Whether you're a complete beginner or looking to expand your
+            existing skills. We offer a wide range of courses, from foundational
+            languages to in-demand specializations, all designed by industry
+            experts. Our structured learning paths ensure you build a solid
+            understanding of core concepts and progress systematically towards
+            your coding goals. Invest in your future with a learning experience
+            that sets you up for long-term success.
+          </p>
+          <a href="courses.html" class="inline-btn">Our Courses</a>
+        </div>
       </div>
 
-      <div class="content">
-         <h3>Why Choose Us?</h3>
-         <p>Whether you're a complete beginner or looking to expand your existing skills. We offer a wide range of courses, from foundational languages to in-demand specializations, all designed by industry experts. Our structured learning paths ensure you build a solid understanding of core concepts and progress systematically towards your coding goals. Invest in your future with a learning experience that sets you up for long-term success.</p>
-         <a href="courses.html" class="inline-btn">Our Courses</a>
-      </div>
-
-   </div>
-
-   <div class="box-container">
-
-      <div class="box">
-         <i class="fas fa-graduation-cap"></i>
-         <div>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
             <h3>+10k</h3>
             <p>Online Courses</p>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <i class="fas fa-user-graduate"></i>
-         <div>
+        <div class="box">
+          <i class="fas fa-user-graduate"></i>
+          <div>
             <h3>+40k</h3>
             <p>Brilliant Students</p>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <i class="fas fa-chalkboard-user"></i>
-         <div>
+        <div class="box">
+          <i class="fas fa-chalkboard-user"></i>
+          <div>
             <h3>+2k</h3>
             <p>Expert Tutors</p>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <i class="fas fa-briefcase"></i>
-         <div>
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <div>
             <h3>100%</h3>
             <p>Job Placement</p>
-         </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-   </div>
+    <section class="reviews">
+      <h1 class="heading">Student's Reviews</h1>
 
-</section> 
-
-<section class="reviews">
-
-   <h1 class="heading">Student's Reviews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <p>What sets this website apart is its focus on practical application. Unlike other platforms I've tried, the courses here are packed with real-world projects that allowed me to immediately apply what I was learning. Building a portfolio while I studied was invaluable, and it gave me the confidence to start applying for junior developer roles. The instructors provide constructive feedback on projects, pushing you to think critically and write better code. If you're serious about gaining job-ready coding skills, this is the place to be</p>
-         <div class="student">
-            <img src="images/pic-2.jpg" alt="">
+      <div class="box-container">
+        <div class="box">
+          <p>
+            What sets this website apart is its focus on practical application.
+            Unlike other platforms I've tried, the courses here are packed with
+            real-world projects that allowed me to immediately apply what I was
+            learning. Building a portfolio while I studied was invaluable, and
+            it gave me the confidence to start applying for junior developer
+            roles. The instructors provide constructive feedback on projects,
+            pushing you to think critically and write better code. If you're
+            serious about gaining job-ready coding skills, this is the place to
+            be
+          </p>
+          <div class="student">
+            <img src="images/pic-2.jpg" alt="" />
             <div>
-               <h3>Sarah M</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>Sarah M</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <p>Whether you're looking to learn your first coding language or expand your existing skillset, this website offers a truly comprehensive learning experience. The range of courses available is impressive, covering everything from foundational languages to more specialized areas. The learning paths are well-designed. I particularly valued the depth of knowledge provided and the resources available for further learning. It's clear that the curriculum is designed by experts who are passionate about teaching and staying current with industry trends.</p>
-         <div class="student">
-            <img src="images/pic-3.jpg" alt="">
+        <div class="box">
+          <p>
+            Whether you're looking to learn your first coding language or expand
+            your existing skillset, this website offers a truly comprehensive
+            learning experience. The range of courses available is impressive,
+            covering everything from foundational languages to more specialized
+            areas. The learning paths are well-designed. I particularly valued
+            the depth of knowledge provided and the resources available for
+            further learning. It's clear that the curriculum is designed by
+            experts who are passionate about teaching and staying current with
+            industry trends.
+          </p>
+          <div class="student">
+            <img src="images/pic-3.jpg" alt="" />
             <div>
-               <h3>john B</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>john B</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <p>What sets this website apart is its focus on practical application. Unlike other platforms I've tried, the courses here are packed with real-world projects that allowed me to immediately apply what I was learning. Building a portfolio while I studied was invaluable, and it gave me the confidence to start applying for junior developer roles. The instructors provide constructive feedback on projects, pushing you to think critically and write better code. If you're serious about gaining job-ready coding skills, this is the place to be.</p>
-         <div class="student">
-            <img src="images/pic-4.jpg" alt="">
+        <div class="box">
+          <p>
+            What sets this website apart is its focus on practical application.
+            Unlike other platforms I've tried, the courses here are packed with
+            real-world projects that allowed me to immediately apply what I was
+            learning. Building a portfolio while I studied was invaluable, and
+            it gave me the confidence to start applying for junior developer
+            roles. The instructors provide constructive feedback on projects,
+            pushing you to think critically and write better code. If you're
+            serious about gaining job-ready coding skills, this is the place to
+            be.
+          </p>
+          <div class="student">
+            <img src="images/pic-4.jpg" alt="" />
             <div>
-               <h3>Emily K.</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>Emily K.</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <p>Learning to code can be challenging, but the supportive community on this website made all the difference. Whenever I encountered a roadblock, the instructors and fellow students were always ready to offer assistance and guidance. The interactive Q&A sessions were incredibly helpful, and the collaborative projects provided a great opportunity to learn from others. It's more than just a collection of courses; it's a welcoming and encouraging environment where you feel supported every step of the way. If you're looking for a place where you won't feel lost or alone in your coding journey, look no further.</p>
-         <div class="student">
-            <img src="images/pic-5.jpg" alt="">
+        <div class="box">
+          <p>
+            Learning to code can be challenging, but the supportive community on
+            this website made all the difference. Whenever I encountered a
+            roadblock, the instructors and fellow students were always ready to
+            offer assistance and guidance. The interactive Q&A sessions were
+            incredibly helpful, and the collaborative projects provided a great
+            opportunity to learn from others. It's more than just a collection
+            of courses; it's a welcoming and encouraging environment where you
+            feel supported every step of the way. If you're looking for a place
+            where you won't feel lost or alone in your coding journey, look no
+            further.
+          </p>
+          <div class="student">
+            <img src="images/pic-5.jpg" alt="" />
             <div>
-               <h3>Smith K</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>Smith K</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <p>I really appreciated how well-structured the courses on this website are. Each module builds logically upon the previous one, making it easy to follow along and understand even complex topics. The instructors have a knack for explaining technical concepts in a clear and concise manner,. I also found the accompanying materials, like code examples and cheat sheets, incredibly helpful for reinforcing what I learned in the video lectures. This platform has truly demystified coding for me, and I feel confident in my ability to continue learning and growing.</p>
-         <div class="student">
-            <img src="images/pic-6.jpg" alt="">
+        <div class="box">
+          <p>
+            I really appreciated how well-structured the courses on this website
+            are. Each module builds logically upon the previous one, making it
+            easy to follow along and understand even complex topics. The
+            instructors have a knack for explaining technical concepts in a
+            clear and concise manner,. I also found the accompanying materials,
+            like code examples and cheat sheets, incredibly helpful for
+            reinforcing what I learned in the video lectures. This platform has
+            truly demystified coding for me, and I feel confident in my ability
+            to continue learning and growing.
+          </p>
+          <div class="student">
+            <img src="images/pic-6.jpg" alt="" />
             <div>
-               <h3>Vikky K</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>Vikky K</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
-      </div>
+          </div>
+        </div>
 
-      <div class="box">
-         <p>The flexibility offered by this website was exactly what I needed. As someone with a full-time job, being able to learn at my own pace and on my own schedule was crucial. The platform is easy to navigate, and I could pick up where I left off whenever I had free time. Despite the self-paced nature, I never felt like I was learning in isolation. The online forums are active, and the instructors are responsive to questions. This website has made learning to code fit seamlessly into my busy life, and I'm excited to see where my new skills will take me.<br>
-         And thankful to all teachers</p>
-         <div class="student">
-            <img src="images/pic-7.jpg" alt="">
+        <div class="box">
+          <p>
+            The flexibility offered by this website was exactly what I needed.
+            As someone with a full-time job, being able to learn at my own pace
+            and on my own schedule was crucial. The platform is easy to
+            navigate, and I could pick up where I left off whenever I had free
+            time. Despite the self-paced nature, I never felt like I was
+            learning in isolation. The online forums are active, and the
+            instructors are responsive to questions. This website has made
+            learning to code fit seamlessly into my busy life, and I'm excited
+            to see where my new skills will take me.<br />
+            And thankful to all teachers
+          </p>
+          <div class="student">
+            <img src="images/pic-7.jpg" alt="" />
             <div>
-               <h3>Kashvi G</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
+              <h3>Kashvi G</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-   </div>
+    <footer class="footer">
+      &copy; copyright @ 2025 by <span>Coding Learning</span> | all rights
+      reserved!
+    </footer>
 
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer">
-
-   &copy; copyright @ 2025 by <span>Coding Learning</span> | all rights reserved!
-
-</footer>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-   
-</body>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
